@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>진승민 블로그 | 자기소개</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="dark">
+  <div class="background-glow glow-1"></div>
+  <div class="background-glow glow-2"></div>
+
+  <header class="site-header">
+    <div class="logo">SEUNGMIN ARCHIVE</div>
+    <nav class="nav">
+      <a href="index.html" class="active">자기소개</a>
+      <a href="timetable.html">시간표</a>
+      <a href="diary.html">대학생활 기록</a>
+    </nav>
+
+    <div class="theme-buttons">
+      <button onclick="setTheme('dark')">다크</button>
+      <button onclick="setTheme('light')">화이트</button>
+      <button onclick="setTheme('purple')">퍼플</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <div class="hero-text">
+        <p class="eyebrow">UNIVERSITY BLOG</p>
+        <h1>안녕하세요,<br />진승민입니다.</h1>
+        <p class="hero-desc">
+          대학생활을 기록하고, 나를 소개하고, 시간표를 정리한
+          개인 블로그입니다. 화려하진 않아도 차분하고 단단한 분위기를 담고 싶었습니다.
+        </p>
+        <div class="hero-buttons">
+          <a href="timetable.html" class="btn primary">시간표 보러가기</a>
+          <a href="diary.html" class="btn secondary">대학생활 기록 보기</a>
+        </div>
+      </div>
+
+      <div class="placeholder-box">
+        <span>PROFILE PLACEHOLDER</span>
+      </div>
+    </section>
+
+    <section class="grid-two">
+      <article class="card">
+        <h2>기본 소개</h2>
+        <ul class="info-list">
+          <li><strong>이름</strong> 진승민</li>
+          <li><strong>신분</strong> 대학생</li>
+          <li><strong>블로그 주제</strong> 자기소개 + 시간표 + 대학생활 기록</li>
+          <li><strong>분위기</strong> 차분함, 정리감, 약간의 독특한 감성</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>나의 장점</h2>
+        <p>
+          나는 신중하고 차분한 성격이다. 그래서 어떤 일을 선택할 때
+          대충 넘어가거나 아무렇게나 결정하지 않는 편이다.
+          한 번 생각하고, 한 번 더 고민해 본 뒤 선택하려고 한다는 점이 내 장점이다.
+        </p>
+      </article>
+    </section>
+
+    <section class="grid-two">
+      <article class="card">
+        <h2>나의 단점</h2>
+        <p>
+          나는 I 성향이 강해서 먼저 나서는 편은 아니다.
+          그래서 자존감이나 자신감이 아주 높은 스타일은 아니라고 느낄 때가 있다.
+          하지만 그런 성향 덕분에 오히려 더 조심스럽게 사람과 상황을 살피는 편이기도 하다.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>한 줄 소개</h2>
+        <p class="quote">
+          “조용하지만 대충 살지 않는 사람.”
+        </p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>내가 바라는 대학생활</h2>
+      <p>
+        아직 대학에 다닌 지 오래되지 않았지만, 앞으로는 수업과 기록을 꾸준히 쌓아 가면서
+        조금씩 더 자신감 있는 모습으로 성장하고 싶다.
+        이 블로그는 그 시작을 담아두는 공간이다.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 진승민의 블로그. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
