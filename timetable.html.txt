@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>진승민 블로그 | 시간표</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="dark">
+  <div class="background-glow glow-1"></div>
+  <div class="background-glow glow-2"></div>
+
+  <header class="site-header">
+    <div class="logo">SEUNGMIN ARCHIVE</div>
+    <nav class="nav">
+      <a href="index.html">자기소개</a>
+      <a href="timetable.html" class="active">시간표</a>
+      <a href="diary.html">대학생활 기록</a>
+    </nav>
+
+    <div class="theme-buttons">
+      <button onclick="setTheme('dark')">다크</button>
+      <button onclick="setTheme('light')">화이트</button>
+      <button onclick="setTheme('purple')">퍼플</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <p class="eyebrow">WEEKLY SCHEDULE</p>
+      <h1>진승민의 시간표</h1>
+      <p class="section-desc">
+        사진에 있는 시간표를 기준으로 정리한 수업 일정이다.
+      </p>
+    </section>
+
+    <section class="card timetable-wrap">
+      <div class="table-scroll">
+        <table class="timetable">
+          <thead>
+            <tr>
+              <th>시간</th>
+              <th>월</th>
+              <th>화</th>
+              <th>수</th>
+              <th>목</th>
+              <th>금</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>09:00 - 10:00</td>
+              <td class="subject english" rowspan="3">
+                <strong>영어회화</strong>
+                <span>[프라임관] 305소강의실</span>
+              </td>
+              <td></td>
+              <td></td>
+              <td class="subject intro" rowspan="2">
+                <strong>컴퓨터개론</strong>
+                <span>[프라임관] 102대강의실</span>
+              </td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>10:00 - 11:00</td>
+              <td></td>
+              <td class="subject cprog" rowspan="2">
+                <strong>C언어프로그래밍</strong>
+                <span>[프라임관] 컴퓨터소프트웨어공학전산실2</span>
+              </td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td class="subject seminar" rowspan="2">
+                <strong>전공기초세미나</strong>
+                <span>[공학관] 502강의실</span>
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>12:00 - 13:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="subject history" rowspan="3">
+                <strong>컴퓨팅적사고력</strong>
+                <span>[새천년관] 새천-공동전산실7</span>
+              </td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>13:00 - 14:00</td>
+              <td class="subject major" rowspan="2">
+                <strong>전공탐색101</strong>
+                <span>[프라임관] 302중강의실</span>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>14:00 - 15:00</td>
+              <td class="subject cprog">
+                <strong>C언어프로그래밍</strong>
+                <span>[프라임관] 강의실 확인 필요</span>
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>15:00 - 16:00</td>
+              <td class="subject collegelife" rowspan="2">
+                <strong>대학생활과 자기혁신</strong>
+                <span>[공학관] 408강의실</span>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>16:00 - 17:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="grid-two">
+      <article class="card">
+        <h2>시간표 한눈에 보기</h2>
+        <p>
+          월요일과 목요일 수업 비중이 비교적 크고,
+          수요일과 화요일에는 전공 관련 수업이 들어가 있다.
+          전체적으로 오전과 오후가 섞여 있어 하루 리듬을 잘 맞추는 게 중요하다.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>메모</h2>
+        <p>
+          화요일 2시 C언어프로그래밍 강의실은 사진에서 잘리지 않게
+          나중에 다시 확인해서 수정하면 완성도가 더 좋아진다.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 진승민의 블로그. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
